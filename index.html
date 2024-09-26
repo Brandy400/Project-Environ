@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Project Environ</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="progress-text">
+            <span id="progress">0%</span>
+        </div>
+    </div>
+    <main id="main-content">
+        <nav class="navbar default">
+            <div class="navbar-brand default">Project Environ</div>
+            <ul class="navbar-links">
+                <li><a class="default" href="#home">Home</a></li>
+                <li><a class="default" href="/pages/prevention.html">Prevention</a></li>
+                <li><a class="default" href="pages/about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a class="default">Places</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dim" href="pages/place1.html">Great Barrier Reef</a></li>
+                        <li><a class="dim" href="pages/place2.html">Amazon Rainforest</a></li>
+                        <li><a class="dim" href="pages/place3.html">Maldives</a></li>
+                        <li><a class="dim" href="pages/place4.html">Arctic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    
+        <div id="home" class="landingHero">
+            <video autoplay muted loop class="background-video">
+                <source src="/assets/background/landing.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        
+            <div class="content-wrapper">
+                <div class="title-section">
+                    <h1>Project Environ</h1>
+                </div>
+        
+                <div class="glass-container">
+                    <h2 class="glass-title">Earth is Calling</h2>
+                    <div class="glass-content">
+                        <p>Picture this: <span class="highlight">skies filled with smoke</span>, rivers drying up, and forests turning into deserts.</p>
+                        <p>The sounds of nature are fading, coral reefs are losing their colors. <span class="highlight">Our planet is struggling</span>.</p>
+                        <p>It’s not just about saving trees, it’s about protecting our future, our air, and our water.</p>
+                        <p class="call-to-action">Will you take action?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <section id="places" class="section">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="assets/Arctic .png" alt="Place 1">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="assets/Maldives .png" alt="Place 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/GreatBarrier .png" alt="Place 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/Amazon .png" alt="Place 4">
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h3>Project Environ</h3>
+                    <p>Connecting you to nature, one adventure at a time.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#places">Places</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Project Environ. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</body>
+
+</html>
