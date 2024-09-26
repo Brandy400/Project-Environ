@@ -2,7 +2,7 @@
 
 ![Project Environ](/assets/thumbnail.png)
 
-Main Synopsis:-
+
 We, the members of Group 10 from Batch 11, have chosen to focus our Environmental Science project on the critical issue of environmental awareness. Our project involves creating a basic webpage aimed at educating users about the effects of environmental degradation around the world. This platform will highlight the diverse ways in which different regions are impacted, such as deforestation, pollution, and climate change.
 
 Through our webpage, we intend to provide clear and accessible information on how these environmental challenges affect various areas and communities globally. Our goal is to raise awareness and encourage individuals to take action in their own lives to protect the environment and contribute to a more sustainable future.
